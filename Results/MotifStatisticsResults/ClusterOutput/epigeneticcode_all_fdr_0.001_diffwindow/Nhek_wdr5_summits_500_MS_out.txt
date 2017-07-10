@@ -1,0 +1,38 @@
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 8555460: <Nhek_wdr5_summits_500_MS> Exited
+
+Job <Nhek_wdr5_summits_500_MS> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_RegulatoryAnalysisTools/exp/script> was used as the working directory.
+Started at Wed May 29 13:40:53 2013
+Results reported at Sun Jun  2 17:42:38 2013
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./motifStatistics_pipeline.zsh -coord_file=/work/eg474423/ig440396_dendriticcells/local/myc/Input/Epigeneticcode/500/Nhek_wdr5_summits.bed -output_location=/work/eg474423/ig440396_dendriticcells/local/myc/MotifStatistics/epigeneticcode_all_fdr_0.001_diffwindow/500/Nhek_wdr5_summits/ -organism=hg19 -motif_match_fpr=0.001 -print_association=Y -print_mpbs=Y -print_results_text=Y -print_results_html=Y -print_enriched_genes=N -print_rand_coordinates=Y -print_graph_mmscore=N
+------------------------------------------------------------
+
+TERM_RUNLIMIT: job killed after reaching LSF run time limit.
+Exited with exit code 140.
+
+Resource usage summary:
+
+    CPU time   : 359833.00 sec.
+    Max Memory :     15291 MB
+    Max Swap   :     15617 MB
+
+    Max Processes  :         6
+    Max Threads    :         7
+
+The output (if any) follows:
+
+1. Performing motif statistics
+
+
+PS:
+
+Read file <Nhek_wdr5_summits_500_MS_err.txt> for stderr output of this job.
+
