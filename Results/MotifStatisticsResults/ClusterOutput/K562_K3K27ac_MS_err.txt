@@ -1,1 +1,0 @@
-End coordinate 81195250 bigger than chr17 size of 81195210 line 367202 of /work/eg474423/ig440396_dendriticcells/local/myc/MotifStatistics/selected_fdr_0.001/K562_K3K27ac/coord_association.bed
